@@ -23,6 +23,7 @@ function iLoveTheBeatles(n) {
   var empty = [];
   do {
     empty.push("I love the Beatles!");
-  } while ( empty.length < 19);
+    n++;
+  } while ( n < 19);
   return empty;
 }
