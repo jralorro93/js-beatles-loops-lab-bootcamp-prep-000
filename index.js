@@ -18,3 +18,10 @@ function johnLennonFacts (facts) {
   }
   return empty;
 }
+
+function iLoveTheBeatles(n) {
+  var empty = [];
+  do {
+    empty.push("I love the Beatles!");
+  }
+}
