@@ -3,8 +3,7 @@ var empty = [];
 
 function theBeatlesPlay (musicians, instruments) {
   for (counter = 0; counter < 4; counter++) {
-    console.log(musicians," plays ", instruments)
-    empty.push()
+    empty.push(musicians, " plays ", instruments);
   }
-  
+  return 
 }
