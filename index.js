@@ -13,8 +13,8 @@ function johnLennonFacts (facts) {
   var empty = [];
   var i = 0;
   while (i < facts.length) {
-    console.log(i++);
     empty.push(`${facts[i]}!!!`);
+    console.log(i++);
   }
   return empty;
 }
