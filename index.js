@@ -13,7 +13,7 @@ function johnLennonFacts (facts) {
   var empty = [];
   var i = 0;
   while (i < facts.length) {
-    console.log(countdown--);
+    console.log(i++);
     empty.push(`${facts[i]}! ! !`);
   }
   return empty;
