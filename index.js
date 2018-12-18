@@ -14,7 +14,7 @@ function johnLennonFacts (facts) {
   var i = 0;
   while (i < facts.length) {
     console.log(i++);
-    empty.push(`${facts[i]}! ! !`);
+    empty.push(`${facts[i]}!!!`);
   }
   return empty;
 }
